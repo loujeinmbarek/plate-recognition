@@ -1,7 +1,25 @@
-venv/
+
+# Python
 __pycache__/
-data/
-models/
-*.pt
-*.pth
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Dataset files (keep datasets locally)
+data/dataset/
+data/yolo_dataset/
+
+# Model training outputs
+runs/
+weights/
+*.pt
+*.onnx
+
+# IDE
+.vscode/
